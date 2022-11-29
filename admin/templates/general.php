@@ -13,7 +13,7 @@
                     </div>
                     <div class="spc-admin-block-header">
                         <h4 class="spc-admin-title"><?php _e( 'Contribute to ShopCred', 'shop-cred' ); ?></h4>
-                        <p><?php _e( 'Please feel free to report any issues in our Github repo about ShopCred for Elementor. Send pull requests at', 'shop-cred' ); ?> <a href="https://github.com/mmaumio/exclusive-addons-for-elementor" target="_blank"><?php _e( 'Github.', 'shop-cred' ); ?></a></p>
+                        <p><?php _e( 'Please feel free to report any issues in our Github repo about ShopCred. Send pull requests at', 'shop-cred' ); ?> <a href="https://github.com/mmaumio/shopcred" target="_blank"><?php _e( 'Github.', 'shop-cred' ); ?></a></p>
                         <a href="https://github.com/mmaumio/shop-cred/issues/new" class="spc-admin-block-contribution-button" target="_blank"><?php _e( 'Report Bug', 'shop-cred' ); ?></a>
                     </div>
                 </div>

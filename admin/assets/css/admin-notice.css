@@ -77,3 +77,7 @@
   color: #D30C5C;
   font-weight: bold;
 }
+
+#adminmenu .toplevel_page_spc-settings .wp-menu-image img {
+  padding: 7px 0 0 0 !important;
+}

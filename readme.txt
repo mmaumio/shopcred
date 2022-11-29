@@ -94,7 +94,7 @@ You can use any WordPress theme that supports Block editor functionalities.
 
 = How can I get support? = 
 
-https://wordpress.org/support/plugin/shop-cred/
+https://wordpress.org/support/plugin/shopcred/
 
 = Does ShopCred work with other page builders? =
 

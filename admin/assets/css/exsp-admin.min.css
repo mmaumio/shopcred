@@ -1,7 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;300;400;500;600;700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
-
- .spc-elements-dashboard-wrapper {
+.spc-elements-dashboard-wrapper {
      background-image: url('../img/wrapper-bg.svg');
      background-position: right bottom;
      background-repeat: no-repeat;
@@ -16,7 +13,7 @@
      position: relative;
      overflow: hidden;
      margin-left: -20px;
- }
+}
 
  #spc-elements-settings {
      max-width: 1140px;
@@ -70,7 +67,7 @@
  }
 
  .spc-dashboard-header-left .title {
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 20px;
      font-weight: 600;
      margin: 0;
@@ -83,7 +80,7 @@
 
  .spc-settings-saved {
      margin-right: 10px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 600;
      font-size: 15px;
  }
@@ -145,7 +142,7 @@
      border-radius: 6px;
      padding: 15px 25px;
      border: 2px solid #4628BE;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 14px;
      cursor: pointer;
      font-weight: 600;
@@ -199,7 +196,7 @@
      background: #FF578E;
      padding: 15px 25px;
      border-radius: 10px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 15px;
      font-weight: 600;
      text-decoration: none;
@@ -214,7 +211,7 @@
      padding: 28px 30px;
      display: flex;
      align-items: center;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 15px;
      font-weight: 600;
      text-decoration: none;
@@ -289,7 +286,7 @@
      text-decoration: none;
      color: #ffffff;
      font-size: 50px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 600;
      line-height: 60px;
  }
@@ -301,7 +298,7 @@
      padding: 18px 44px;
      color: #ffffff;
      background: #46D39A;
-     font-family: 'Inter', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 14px;
      font-weight: 600;
      border-radius: 10px;
@@ -367,7 +364,7 @@
 
  .spc-admin-block-header .spc-admin-title {
      font-size: 20px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      line-height: 27px;
      margin: 0 0 10px 0;
      color: #000;
@@ -379,7 +376,7 @@
      line-height: 26px;
      color: rgba(0, 0, 0, .6);
      margin: 0 0 25px 0;
-     font-family: 'Inter', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 400;
  }
 
@@ -389,7 +386,7 @@
  .spc-admin-block-header-button {
      padding: 12px 37px;
      font-size: 14px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      text-decoration: none;
      font-weight: 600;
      border-radius: 8px;
@@ -411,7 +408,7 @@
 
  .spc-upgrade-title {
      font-size: 50px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      line-height: 60px;
      margin: 60px 15% 30px 15%;
      font-weight: 600;
@@ -440,7 +437,7 @@
  .spc-upgrade-pro-info-title {
      font-size: 20px;
      margin: 0 0 15px 0;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 600;
      color: #000;
  }
@@ -448,7 +445,7 @@
  .spc-upgrade-pro-info-content {
      font-size: 15px;
      margin: 0;
-     font-family: 'Inter', sans-serif;
+     font-family: 'Arial', sans-serif;
      color: #595868;
      line-height: 22px;
  }
@@ -471,7 +468,7 @@
      color: #ffffff;
      line-height: 24px;
      font-size: 20px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 400;
      margin: 0 0 40px 0;
  }
@@ -482,7 +479,7 @@
      color: #46D39A;
      background: #e6eaf5;
      border-radius: 10px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 500;
      text-decoration: none;
      text-transform: capitalize;
@@ -521,14 +518,14 @@
      margin: 0 0 12px 0;
      line-height: 24px;
      font-size: 20px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
  }
 
  .spc-dashboard-popup-message-discription {
      margin: 0 0 25px 0;
      line-height: 22px;
      font-size: 15px;
-     font-family: 'Inter', sans-serif;
+     font-family: 'Arial', sans-serif;
  }
 
  .spc-dashboard-popup-message-action {
@@ -538,7 +535,7 @@
      padding: 18px 44px;
      color: #ffffff;
      background: #46D39A;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 15px;
      font-weight: 600;
      border-radius: 10px;
@@ -746,7 +743,7 @@
  }
 
  .spc-el-title {
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 600;
      font-size: 16px;
      margin: 0;
@@ -813,7 +810,7 @@
      background: #000000;
      border-radius: 6px;
      text-decoration: none;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 14px;
      color: #ffffff;
      font-weight: 600;
@@ -833,7 +830,7 @@
      border: 2px solid #000000;
      border-radius: 6px;
      text-decoration: none;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 14px;
      color: #000000;
      font-weight: 600;
@@ -874,7 +871,7 @@
      border: 2px solid #000000;
      border-radius: 6px;
      color: #3c434a;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 600;
      font-size: 14px;
      padding: 11px 18px;
@@ -931,7 +928,7 @@
      width: 100%;
      border-radius: 6px;
      border: 2px solid #000000;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 600;
      font-size: 14px;
      padding: 10px 15px;
@@ -954,7 +951,7 @@
      width: 100%;
      border-radius: 6px;
      border: 2px solid #000000;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 600;
  }
 
@@ -979,7 +976,7 @@
 
  .exed-element-filter-dropdown .nice-select .option {
      margin: 0;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 600;
  }
 
@@ -1021,7 +1018,7 @@
      line-height: 1;
      color: #ffffff;
      font-size: 10px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      text-transform: capitalize;
  }
 
@@ -1054,7 +1051,7 @@
 
  .spc-primary-color-text,
  .spc-secondary-color-text {
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 20px;
      font-weight: 700;
      margin: 0 0 15px 0;
@@ -1062,7 +1059,7 @@
 
  .spc-primary-color-description,
  .spc-secondary-color-description {
-     font-family: 'Inter', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 15px;
      line-height: 22px;
      margin: 0 0 40px 0;
@@ -1093,7 +1090,7 @@
      color: #000;
      font-size: 15px;
      font-weight: 600;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      padding: 13px 15px;
      background: #ffffff;
      line-height: 1;
@@ -1112,7 +1109,7 @@
      border-radius: 10px;
      background: #ffffff;
      font-size: 15px;
-     font-family: 'Inter', sans-serif;
+     font-family: 'Arial', sans-serif;
      margin: 0 15px;
  }
 
@@ -1129,7 +1126,7 @@
      line-height: 1;
      font-size: 15px;
      color: #6636f6;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
  }
 
  .spc-dashboard-color-wrapper .wp-picker-input-wrap .button.wp-picker-default:focus {
@@ -1179,7 +1176,7 @@
  .spc-dashboard-text-title .spc-el-title {
      font-size: 20px;
      font-weight: 700;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      margin: 0 0 20px 0;
  }
 
@@ -1194,7 +1191,7 @@
      width: 100%;
      border: 1px solid #6636F6;
      padding: 15px 17px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-size: 16px;
      font-weight: 400;
      color: #000000;
@@ -1253,7 +1250,7 @@
      transition: all .3s ease;
      cursor: pointer;
      font-size: 15px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
  }
 
  .spc-licence-key-submit-btn:hover {
@@ -1336,7 +1333,7 @@
  .spc-license-header-update-content h3 {
      margin: 0 0 10px 0;
      font-size: 20px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      line-height: 24px;
  }
 
@@ -1344,7 +1341,7 @@
  .spc-license-header-update-content p {
      margin: 0;
      font-size: 16px;
-     font-family: 'Inter', sans-serif;
+     font-family: 'Arial', sans-serif;
      line-height: 22px;
      color: #595868;
      font-weight: 400;
@@ -1379,7 +1376,7 @@
      border-radius: 10px;
      padding: 15px 20px 15px 50px;
      font-size: 16px;
-     font-family: 'Inter', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: 400;
      color: #595868;
      background: #fff;
@@ -1401,7 +1398,7 @@
      padding: 0 60px;
      border-radius: 10px;
      font-size: 15px;
-     font-family: 'Fahkwang', sans-serif;
+     font-family: 'Arial', sans-serif;
      color: #ffffff;
      border: none;
      transition: all .3s ease;
