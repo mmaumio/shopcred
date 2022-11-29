@@ -106,7 +106,7 @@ add_action( 'plugins_loaded', 'shopcred_blocks_init' );
 function appsero_init_tracker_shopcred() {
 
     if ( ! class_exists( 'Appsero\Client' ) ) {
-      require_once __DIR__ . '/appsero/client/src/Client.php';
+      require_once __DIR__ . '/appsero/client/Client.php';
     }
 
     $client = new Appsero\Client( '3c1da7cb-634a-422a-965f-8af7494ba70b', 'ShopCred', __FILE__ );
