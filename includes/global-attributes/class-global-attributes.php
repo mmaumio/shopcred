@@ -917,7 +917,7 @@ if ( ! class_exists( 'ShopCred_Global_Attributes' ) ) {
                 ),
                 'gButtonText'                => array(
                     'type'    => 'string',
-                    'default' => __( 'Load More', 'shop-cred' ),
+                    'default' => __( 'Load More', 'shopcred' ),
                 ),
                 'gButtonColor'                => array(
                     'type'    => 'string',

@@ -86,7 +86,7 @@ class ShopCred_Manager {
 
         return [
             'spc/woo-product'  => [
-                'title'  => __( 'Woo Product', 'shop-cred' ),
+                'title'  => __( 'Woo Product', 'shopcred' ),
                 'demo_link' => '#',
                 'tags'   => 'free',
                 'is_pro' => false

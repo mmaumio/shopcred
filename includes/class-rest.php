@@ -526,14 +526,14 @@ class ShopCred_Rest extends WP_REST_Controller {
 		}
 
 		if ( empty( $new_settings ) ) {
-			return $this->success( __( 'No changes found.', 'shop-cred' ) );
+			return $this->success( __( 'No changes found.', 'shopcred' ) );
 		}
 
 		if ( is_array( $new_settings ) ) {
 			update_option( 'shop-cred', array_merge( $current_settings, $new_settings ) );
 		}
 
-		return $this->success( __( 'Settings saved.', 'shop-cred' ) );
+		return $this->success( __( 'Settings saved.', 'shopcred' ) );
 	}
 
 	/**
@@ -546,7 +546,7 @@ class ShopCred_Rest extends WP_REST_Controller {
 	public function regenerate_css_files( WP_REST_Request $request ) {
 		update_option( 'ShopCred_Dynamic_CSS_posts', array() );
 
-		return $this->success( __( 'CSS files regenerated.', 'shop-cred' ) );
+		return $this->success( __( 'CSS files regenerated.', 'shopcred' ) );
 	}
 
 	/**

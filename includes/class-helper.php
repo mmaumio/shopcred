@@ -485,7 +485,7 @@ if ( ! class_exists( 'ShopCred_Helper' ) ) {
 
 			$image_sizes[] = array(
 				'value' => 'full',
-				'label' => esc_html__( 'Full', 'shop-cred' ),
+				'label' => esc_html__( 'Full', 'shopcred' ),
 			);
 
 			foreach ( $sizes as $size ) {

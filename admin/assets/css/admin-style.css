@@ -1687,4 +1687,7 @@ input.color-picker.spc-admin-color-picker.wp-color-picker:focus {
     opacity: 1 !important;
 }
 
+#adminmenu .toplevel_page_spc-settings .wp-menu-image img {
+    padding: 7px 0 0 0 !important;
+}
 /* nice select css end */

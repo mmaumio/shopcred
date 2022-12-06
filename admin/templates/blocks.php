@@ -13,10 +13,10 @@
                 <div class="spc-element-filter-btn">
                     <ul>
                         <li>
-                            <a href="" class="spc-element-enable"><?php echo __('Enable All', 'shop-cred') ?></a>
+                            <a href="" class="spc-element-enable"><?php echo __('Enable All', 'shopcred') ?></a>
                         </li>
                         <li>
-                            <a href="" class="spc-element-disable"><?php echo __('Disable All', 'shop-cred') ?></a>
+                            <a href="" class="spc-element-disable"><?php echo __('Disable All', 'shopcred') ?></a>
                         </li>
                     </ul>
                 </div>
@@ -28,12 +28,12 @@
                             </svg>
                         </span>
                         <select id="exed-element-filter-dropdown-option">
-                            <option value="all"><?php echo __('All Blocks', 'shop-cred') ?></option>
-                            <option value="free"><?php echo __('Free', 'shop-cred') ?></option>
+                            <option value="all"><?php echo __('All Blocks', 'shopcred') ?></option>
+                            <option value="free"><?php echo __('Free', 'shopcred') ?></option>
                         </select>
                     </div>
                     <div class="spc-element-filter-search">
-                        <input id="spc-element-filter-search-input" type="text" placeholder="<?php echo __('Search Block', 'shop-cred') ?>">
+                        <input id="spc-element-filter-search-input" type="text" placeholder="<?php echo __('Search Block', 'shopcred') ?>">
                         <div class="spc-element-filter-search-icon">
                             <svg width="19" height="19" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3.075 3.075a7.5 7.5 0 0110.95 10.241l3.9 3.902a.5.5 0 01-.707.707l-3.9-3.901A7.5 7.5 0 013.074 3.075zm.707.707a6.5 6.5 0 109.193 9.193 6.5 6.5 0 00-9.193-9.193z" fill="#46D39A" fillRule="nonzero"/>

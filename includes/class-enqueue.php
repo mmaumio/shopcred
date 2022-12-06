@@ -247,7 +247,7 @@ class ShopCred_Enqueue {
 			[
 				[
 					'slug'  => 'shop-cred',
-					'title' => esc_html__( 'ShopCred', 'shop-cred' ),
+					'title' => esc_html__( 'ShopCred', 'shopcred' ),
 				],
 			]
 		);

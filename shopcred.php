@@ -8,7 +8,7 @@
  * Version: 1.0.0
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain: shop-cred
+ * Text Domain: shopcred
  *
  * @package ShopCred
  */
@@ -88,10 +88,10 @@ add_action( 'plugins_loaded', 'shopcred_blocks_init' );
 	function spm_admin_notice_missing_woocommerce() {
 
 		$message = sprintf(
-			__( '%1$s requires %2$s to be installed and activated to function properly. %3$s', 'shop-cred' ),
-			'<strong>' . __( 'ShopCred', 'shop-cred' ) . '</strong>',
-			'<strong>' . __( 'Woocommerce', 'shop-cred' ) . '</strong>',
-			'<a href="' . esc_url( admin_url( 'plugin-install.php?s=Woocommerce&tab=search&type=term' ) ) . '">' . __( 'Please click here to install/activate Woocommerce', 'shop-cred' ) . '</a>'
+			__( '%1$s requires %2$s to be installed and activated to function properly. %3$s', 'shopcred' ),
+			'<strong>' . __( 'ShopCred', 'shopcred' ) . '</strong>',
+			'<strong>' . __( 'Woocommerce', 'shopcred' ) . '</strong>',
+			'<a href="' . esc_url( admin_url( 'plugin-install.php?s=Woocommerce&tab=search&type=term' ) ) . '">' . __( 'Please click here to install/activate Woocommerce', 'shopcred' ) . '</a>'
 		);
 
 		printf( '<div class="notice notice-warning is-dismissible"><p style="padding: 5px 0">%1$s</p></div>', $message );

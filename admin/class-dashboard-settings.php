@@ -61,7 +61,7 @@ class ShopCred_Dashboard {
 	 */
 	public function create_admin_menu() {
 
-		$title = __( 'ShopCred', 'shop-cred' );
+		$title = __( 'ShopCred', 'shopcred' );
 		add_menu_page( $title, $title, 'manage_options', 'spc-settings', array( $this, 'admin_settings_page' ), SPC_ADMIN_URL . 'assets/img/dashboard-icon.svg', 59 );
 		
 	}
@@ -138,7 +138,7 @@ class ShopCred_Dashboard {
                     </div>
                     <div class="spc-dashboard-header-right">
                         <button type="submit" class="spc-btn spc-js-element-save-setting">
-                            <?php _e('Save Settings', 'shop-cred'); ?>
+                            <?php _e('Save Settings', 'shopcred'); ?>
                         </button>
                     </div>
                 </div>
@@ -149,14 +149,14 @@ class ShopCred_Dashboard {
 							<a href="#general" class="active">
 								<img class="spc-tab-image-normal" src="<?php echo SPC_ADMIN_URL . 'assets/img/general-normal.svg'; ?>">
 								<img class="spc-tab-image-active" src="<?php echo SPC_ADMIN_URL . 'assets/img/general-active.svg'; ?>">
-								<span><?php _e( 'General', 'shop-cred' ); ?></span>
+								<span><?php _e( 'General', 'shopcred' ); ?></span>
 							</a>
 						</li>
                         <li class="spc-tab-btn">
 							<a href="#elements">
 								<img class="spc-tab-image-normal" src="<?php echo SPC_ADMIN_URL . 'assets/img/elements-normal.svg'; ?>">
 								<img class="spc-tab-image-active" src="<?php echo SPC_ADMIN_URL . 'assets/img/elements-active.svg'; ?>">
-								<span><?php _e( 'Blocks', 'shop-cred' ); ?></span>
+								<span><?php _e( 'Blocks', 'shopcred' ); ?></span>
 							</a>
 						</li>
                         

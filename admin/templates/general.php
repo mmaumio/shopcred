@@ -12,9 +12,9 @@
                         </svg>
                     </div>
                     <div class="spc-admin-block-header">
-                        <h4 class="spc-admin-title"><?php _e( 'Contribute to ShopCred', 'shop-cred' ); ?></h4>
-                        <p><?php _e( 'Please feel free to report any issues in our Github repo about ShopCred. Send pull requests at', 'shop-cred' ); ?> <a href="https://github.com/mmaumio/shopcred" target="_blank"><?php _e( 'Github.', 'shop-cred' ); ?></a></p>
-                        <a href="https://github.com/mmaumio/shop-cred/issues/new" class="spc-admin-block-contribution-button" target="_blank"><?php _e( 'Report Bug', 'shop-cred' ); ?></a>
+                        <h4 class="spc-admin-title"><?php _e( 'Contribute to ShopCred', 'shopcred' ); ?></h4>
+                        <p><?php _e( 'Please feel free to report any issues in our Github repo about ShopCred. Send pull requests at', 'shopcred' ); ?> <a href="https://github.com/mmaumio/shopcred" target="_blank"><?php _e( 'Github.', 'shopcred' ); ?></a></p>
+                        <a href="https://github.com/mmaumio/shop-cred/issues/new" class="spc-admin-block-contribution-button" target="_blank"><?php _e( 'Report Bug', 'shopcred' ); ?></a>
                     </div>
                 </div>
                 <!--preview image end-->
@@ -27,9 +27,9 @@
                         </svg>
                     </div>
                     <div class="spc-admin-block-header">
-                        <h4 class="spc-admin-title"><?php _e( 'Documentation', 'shop-cred' ); ?></h4>
-                        <p><?php _e( 'Get yourself used to with the easy to read documentation we have till now. We\'re always working to make it easier for you.', 'shop-cred' ); ?></p>
-                        <a href="https://exclusiveblocks.com/shop-cred/docs" class="spc-admin-block-docs-button" target="_blank"><?php _e( 'Documentation', 'shop-cred' ); ?></a>
+                        <h4 class="spc-admin-title"><?php _e( 'Documentation', 'shopcred' ); ?></h4>
+                        <p><?php _e( 'Get yourself used to with the easy to read documentation we have till now. We\'re always working to make it easier for you.', 'shopcred' ); ?></p>
+                        <a href="https://exclusiveblocks.com/shop-cred/docs" class="spc-admin-block-docs-button" target="_blank"><?php _e( 'Documentation', 'shopcred' ); ?></a>
                     </div>
                 </div>
                 <div class="spc-admin-block spc-admin-block-contribution">
@@ -41,9 +41,9 @@
                         </svg>
                     </div>
                     <div class="spc-admin-block-header">
-                        <h4 class="spc-admin-title"><?php _e( 'Customer Support', 'shop-cred' ); ?></h4>
-                        <p><?php _e( 'We are always here to listen your beautiful voice. A dedicated support team is on your way to the rescue, the moment you need us.', 'shop-cred' ); ?></p>
-                        <a href="https://wordpress.org/support/plugin/shop-cred/" class="spc-admin-block-support-button" target="_blank"><?php _e( 'Get Support', 'shop-cred' ); ?></a>
+                        <h4 class="spc-admin-title"><?php _e( 'Customer Support', 'shopcred' ); ?></h4>
+                        <p><?php _e( 'We are always here to listen your beautiful voice. A dedicated support team is on your way to the rescue, the moment you need us.', 'shopcred' ); ?></p>
+                        <a href="https://wordpress.org/support/plugin/shop-cred/" class="spc-admin-block-support-button" target="_blank"><?php _e( 'Get Support', 'shopcred' ); ?></a>
                     </div>
                 </div>
                 <div class="spc-admin-block spc-admin-block-support">
@@ -53,9 +53,9 @@
                         </svg>
                     </div>
                     <div class="spc-admin-block-header">
-                        <h4 class="spc-admin-title"><?php _e( 'Show your Love', 'shop-cred' ); ?></h4>
-                        <p><?php _e( 'We are continiously working to make "ShopCred" better, everyday. Your kind feedback will surely encourage us to move forward with the development.', 'shop-cred' ); ?></p>
-                        <a href="https://wordpress.org/plugins/shop-cred/#reviews" class="spc-admin-block-header-button" target="_blank"><?php _e( 'Leave a Review', 'shop-cred' ); ?></a>
+                        <h4 class="spc-admin-title"><?php _e( 'Show your Love', 'shopcred' ); ?></h4>
+                        <p><?php _e( 'We are continiously working to make "ShopCred" better, everyday. Your kind feedback will surely encourage us to move forward with the development.', 'shopcred' ); ?></p>
+                        <a href="https://wordpress.org/plugins/shop-cred/#reviews" class="spc-admin-block-header-button" target="_blank"><?php _e( 'Leave a Review', 'shopcred' ); ?></a>
                     </div>
                 </div>
             </div>

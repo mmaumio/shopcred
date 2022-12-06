@@ -747,11 +747,11 @@ class ShopCred_Render_Block {
 						// cart btn attributes
 						'cartbtnText'                 => array(
 							'type'    => 'string',
-							'default' => __( 'Add To Cart', 'shop-cred' ),
+							'default' => __( 'Add To Cart', 'shopcred' ),
 						),
 						'addToCartbtnText'                 => array(
 							'type'    => 'string',
-							'default' => __( 'Add to Cart', 'shop-cred' ),
+							'default' => __( 'Add to Cart', 'shopcred' ),
 						),
 						'addToCartbtnColor'                => array(
 							'type'    => 'string',
@@ -1229,7 +1229,7 @@ class ShopCred_Render_Block {
 				?>
 				<div class="spc-woo-product-load-btn">
 					
-					<a class="spc-woo-product-loadmore-btn" href="#" data-pages="<?php echo esc_attr($total) ;?>" data-attributes="<?php echo esc_attr($loadmore_data_settings) ;?>" data-pagenum="1" data-blockid="<?php echo esc_attr($attributes['block_id']) ;?>" data-blockname="spc-product-blocks_<?php echo esc_attr($block_name) ;?>" data-postid=""><?php echo esc_html__("Load More", 'shop-cred') ;?></a>
+					<a class="spc-woo-product-loadmore-btn" href="#" data-pages="<?php echo esc_attr($total) ;?>" data-attributes="<?php echo esc_attr($loadmore_data_settings) ;?>" data-pagenum="1" data-blockid="<?php echo esc_attr($attributes['block_id']) ;?>" data-blockname="spc-product-blocks_<?php echo esc_attr($block_name) ;?>" data-postid=""><?php echo esc_html__("Load More", 'shopcred') ;?></a>
 				</div>
 
 				<div class="spc-product-loadMore-wrap">
@@ -1485,7 +1485,7 @@ class ShopCred_Render_Block {
 
 		if ( empty( $selectorToAction ) ) {
 
-			wp_die("<h2 class='notice-title'>". esc_html__('Please Select Block for action', 'shop-cred' )."</h2>");
+			wp_die("<h2 class='notice-title'>". esc_html__('Please Select Block for action', 'shopcred' )."</h2>");
 
 		}
 		if ( ! empty( $get_page_id && $selectorToAction ) ) {
@@ -1547,7 +1547,7 @@ class ShopCred_Render_Block {
 		if ( isset( $selectorToAction ) && !empty( $selectorToAction ) ){
 			echo $this->posts_articles_markup( $posts_query, $attributes );
 		} else {
-			echo "<h2 class='notice-title'>". esc_html__('Please Select Block for action', 'shop-cred' )."</h2>";
+			echo "<h2 class='notice-title'>". esc_html__('Please Select Block for action', 'shopcred' )."</h2>";
 		}
 
         wp_die();
@@ -1677,7 +1677,7 @@ class ShopCred_Render_Block {
 		}
 
 		if ( $attributes['displayfeaturedTag'] && $product->is_featured() ){ 
-			$featuredText = ( $attributes['hotText'] ) ? $attributes['hotText'] : __( 'Hot', 'shop-cred' ); ?>
+			$featuredText = ( $attributes['hotText'] ) ? $attributes['hotText'] : __( 'Hot', 'shopcred' ); ?>
 			<span class="spc-product-tag spc-featured-product">
 				<span class="spc-hot" ><?php echo esc_html( $featuredText ); ?></span>
 			</span>
@@ -1686,7 +1686,7 @@ class ShopCred_Render_Block {
 		}
 		if ( $attributes['displayStockTag'] ){ 
 			$stock_status = '';
-			$inStockText = ( $attributes['stockText'] ) ? $attributes['stockText'] : __( 'In Stock', 'shop-cred' );
+			$inStockText = ( $attributes['stockText'] ) ? $attributes['stockText'] : __( 'In Stock', 'shopcred' );
 			echo '<span class="spc-product-tag spc-stock-status" >';
 			if ( ( $product->get_stock_status() == 'outofstock' ) ) { ?>
 				<div class="spc-product-outofstock">
@@ -1945,7 +1945,7 @@ class ShopCred_Render_Block {
 		if ( isset($attributes['newTab'] ) ) {
 			$target = '_blank';
 		}
-		$cartbtnText = ( $attributes['cartbtnText'] ) ? $attributes['cartbtnText'] : __( 'Add To Cart', 'shop-cred' );
+		$cartbtnText = ( $attributes['cartbtnText'] ) ? $attributes['cartbtnText'] : __( 'Add To Cart', 'shopcred' );
 		do_action( "spc_single_post_before_readMorebtn_{$attributes['post_type']}", get_the_ID(), $attributes );
 		$wrap_classes = 'spc-post-button wp-block-button';
 		$link_classes = 'spc-post-link spc-text-link';
@@ -1974,7 +1974,7 @@ class ShopCred_Render_Block {
 		if ( isset($attributes['newTab'] ) ) {
 			$target = '_blank';
 		}
-		$cartbtnText = ( $attributes['cartbtnText'] ) ? $attributes['cartbtnText'] : __( 'Add To Cart', 'shop-cred' );
+		$cartbtnText = ( $attributes['cartbtnText'] ) ? $attributes['cartbtnText'] : __( 'Add To Cart', 'shopcred' );
 
 		do_action( "spc_product_cart_before_{$attributes['post_type']}", get_the_ID(), $attributes );
 
